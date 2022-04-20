@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Angel Acedo Moreno portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Angel Acedo Moreno",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemailer": "^6.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

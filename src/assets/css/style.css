@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+
+}
+
+span {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 15px;
+}
+
+
+.navbar-menu {
+  background-color: none;
+  z-index: 2;
+}
+
+
+/* Font Awesome Icons*/
+
+#skills .fa-solid {
+  display: inline-block;
+  width: 100%;
+  color: #0ac8f8;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* Header */
+
+.header {
+  background-position: center;
+  position: absolute;
+  top: 0;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.down-menu {
+  position: relative;
+  top: -150px
+}
+
+#particles-js {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(45deg, #0ac8f8, #081866);
+  z-index: -2;
+}
+
+#particles-js .container-fluid {
+  position: relative;
+  top: 40%;
+
+}
+
+#particles-js .container-fluid .container h1 {
+  position: relative;
+  font-size: 50px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.5px #fff;
+  color: transparent;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+#particles-js .container-fluid .container h2 {
+  position: relative;
+  font-size: 30px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #000;
+  color: transparent;
+  font-weight: 700;
+}
+
+
+.particles-js-canvas-el {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+.header .col-sm-8,
+.header .col-sm-3 {
+  color: #fff;
+}
+
+.header .col-sm-3 .my-photo,
+.header .col-sm-8 p {
+  position: relative;
+  top: 50%;
+}
+
+/* About Me */
+.about-me h2 {
+  position: relative;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.5px #fff;
+  color: #081866;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 50px;
+}
+
+.about-me {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.about-me p {
+  text-align: center;
+}
+
+.about-me .card {
+  padding: 30px;
+}
+
+
+/*Skills*/
+#skills h2,
+#skills h3 {
+  position: relative;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  color: #081866;
+  text-align: center;
+}
+
+#skills h2 {
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+#skills h3 {
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+#skills .border-color {
+  border: 2px solid #081866;
+
+}
+
+/* Technologies */
+#technologies h2,
+#technologies h3,
+#technologies h4 {
+  position: relative;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  color: #081866;
+}
+
+#technologies h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+#technologies h3 {
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+#technologies h4 {
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+#technologies .col-sm-6 {
+  border: 2px solid #081866;
+}
+
+#technologies .col-sm-6 .container:last-child {
+  margin-bottom: 20px;
+}
+
+/* Footer */
+#footer {
+  background-color: #081866;
+  color: #fff;
+}
+
+#footer p {
+  font-size: 10px;
+}
+
+#footer .col-md-5 i {
+  margin-left: 5px;
+}
+
+
+/* Contact */
+
+
+#contact h2 {
+  position: relative;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  color: #081866;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+#contact .form{
+  border: 2px solid #081866;
+}
+
+#contact .form input textarea{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+
+}
+#contact .form input::placeholder, #contact .form textarea::placeholder, #contact input, #contact textarea {
+  font-size: 10px;
+}
+@media (max-width: 803px) {}
+
+@media (max-width: 768px) {
+  .about-me .card {
+    width: 60%;
+  }
+}
+
+@media (max-width: 576px) {
+  #my-photo {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .about-me {
+    width: 90%;
+  }
+
+  .about-me .card {
+    width: 100%;
+  }
+
+  #my-photo {
+    width: 50%;
+  }
+
+  #skills .col-sm-4,
+  #technologies .col-sm-6 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}

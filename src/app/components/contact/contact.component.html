@@ -1,0 +1,18 @@
+<div class="container" id="contact">
+  <h2>Contact me</h2>
+  <form class="form w-75 mx-auto p-3 rounded" [formGroup]="contactEmailForm" #refForm="ngForm" (submit)="sendEmail()" >
+
+    <div class=" form-group row d-flex align-content-center justify-content-center mx-auto">
+      <input type="text" name="name" formControlName="name" class="form-control w-50" placeholder="Name">
+      <input type="text" name="surnames" formControlName="surnames" class="form-control w-50" placeholder="Apellidos">
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" formControlName="email" class="form-control mx-auto" placeholder="Email">
+      <textarea formControlName="message" class="form-control mx-auto m-3" placeholder="Introduzca su mensaje"></textarea>
+      <input type="submit" [disabled]="contactEmailForm.invalid" class="btn btn-primary mx-auto w-100" value="Enviar">
+
+    </div>
+
+
+  </form>
+</div>
