@@ -4,7 +4,7 @@
   "description": "Angel Acedo Moreno portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "test": "nodemon ./dist/index.js"
   },
   "author": "Angel Acedo Moreno",
   "license": "ISC",

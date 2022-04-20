@@ -11,6 +11,6 @@ app.use(function(req, res, next) {
 });
 app.use(require('./routes/emailRouter'))
 
-app.listen(3000, () =>{
+app.listen(process.env.PORT || 3000, () =>{
   console.log("Connected")
 })
