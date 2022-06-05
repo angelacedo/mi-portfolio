@@ -12,7 +12,7 @@ module.exports.sendEmail = (body, res) =>
     secure: true, // true for 465, false for other ports
     auth: {
       user: emailSender, // your domain email address
-      pass: 'edite_this' // your password
+      pass: emailConfig.emailPassword // your password
     }
   });
   var mailOptions = {
